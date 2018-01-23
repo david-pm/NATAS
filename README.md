@@ -1,4 +1,4 @@
-## Create a super-basic Ruby extension in C
+## Create a super-basic C extension for Ruby
 
 1. Make a file called extconf.rb
    Require mkmf, add boilerplate methods
@@ -15,3 +15,6 @@
 --
 
 Otherwise, just clone this repos. Then run `ruby extconf.rb`, then run `make`, then run `ruby init.rb`
+
+
+For reference: https://github.com/ruby/ruby/blob/trunk/doc/extension.rdoc
