@@ -10,7 +10,10 @@
    This compiles your C code into a bundle.
 5. I've added an `init.rb` file which includes the file into the Ruby load path,
    requires it, and loads an irb session.
+   Notice that our `natas` method belongs to the `FooBar` module we added.
 6. From inside the repl just type `natas` and see what happens! ☜(⌒▽⌒)☞
+
+
 
 --
 
