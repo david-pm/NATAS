@@ -2,7 +2,7 @@
 
 1. Make a file called extconf.rb
    Require mkmf, add boilerplate methods
-2. Make your C file (this one is called MyTest.c)
+2. Make your C file (this one is called FooBar.c)
    Add some boilerplate, write your C program
 3. run: `ruby extconf.rb`
    This generates a Makefile
